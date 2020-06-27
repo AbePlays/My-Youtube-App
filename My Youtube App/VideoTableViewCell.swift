@@ -39,7 +39,7 @@ class VideoTableViewCell: UITableViewCell {
         df.dateFormat = "EEEE, MMM d, yyyy"
         self.dateLabel.text = df.string(from: video!.published)
         
-        guard self.video!.thumbnail != nil else {
+        guard self.video!.thumbnail != "" else {
             return
         }
         
