@@ -139,6 +139,12 @@
                         <viewLayoutGuide key="safeArea" id="gD5-Xr-QGb"/>
                     </view>
                     <navigationItem key="navigationItem" id="3NN-Vd-WRt"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="KXn-mo-ZL3" id="QfR-pC-j3a"/>
+                        <outlet property="textView" destination="H9y-2I-ZM8" id="7aH-VK-43V"/>
+                        <outlet property="titleLabel" destination="cvV-Jq-7a8" id="UZ5-xn-PjB"/>
+                        <outlet property="webView" destination="HLt-nW-TE9" id="smi-0X-IdW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HNY-Gp-XoQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
