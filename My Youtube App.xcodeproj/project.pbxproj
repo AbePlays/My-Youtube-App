@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		304B0E6624A7630400D7916F /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304B0E6524A7630400D7916F /* VideoTableViewCell.swift */; };
 		304B0E6824A76B1200D7916F /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304B0E6724A76B1200D7916F /* CacheManager.swift */; };
+		304B0E6A24A76E6600D7916F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304B0E6924A76E6600D7916F /* DetailViewController.swift */; };
 		304CB2352476E0BA00DBAC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CB2342476E0BA00DBAC01 /* AppDelegate.swift */; };
 		304CB2372476E0BA00DBAC01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CB2362476E0BA00DBAC01 /* SceneDelegate.swift */; };
 		304CB2392476E0BA00DBAC01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CB2382476E0BA00DBAC01 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		304B0E6524A7630400D7916F /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		304B0E6724A76B1200D7916F /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		304B0E6924A76E6600D7916F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		304CB2312476E0BA00DBAC01 /* My Youtube App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Youtube App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		304CB2342476E0BA00DBAC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		304CB2362476E0BA00DBAC01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				309542A7248826E1003B3AB4 /* Response.swift */,
 				304B0E6524A7630400D7916F /* VideoTableViewCell.swift */,
 				304B0E6724A76B1200D7916F /* CacheManager.swift */,
+				304B0E6924A76E6600D7916F /* DetailViewController.swift */,
 			);
 			path = "My Youtube App";
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				305260DD247FE40600E3B3BB /* Model.swift in Sources */,
 				305260D9247FDE3B00E3B3BB /* Constants.swift in Sources */,
 				304B0E6624A7630400D7916F /* VideoTableViewCell.swift in Sources */,
+				304B0E6A24A76E6600D7916F /* DetailViewController.swift in Sources */,
 				305260DB247FE37100E3B3BB /* Video.swift in Sources */,
 				309542A8248826E1003B3AB4 /* Response.swift in Sources */,
 			);
